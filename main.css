@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+   
+}
+#Layer_1{
+    float: inline-end;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+   
+}
+#Layer_2{
+    rotate: 180deg;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.outer-container{
+      width: 100vw;
+
+      margin: auto;
+      height: 100vh;
+      overflow: hidden;
+}
+.inner-container{
+    transition: all;
+    transition-duration: 2s;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+ background-color: black;
+ overflow: hidden;
+ 
+}
+.slides{
+    transition: all ;
+    transition-duration: 1s;
+    overflow: hidden;
+   min-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+    background-image: linear-gradient(to right,#edd2a4,#f8eddb);
+  
+}
+.slides2{
+    transition: all ;
+    transition-duration: 1s;
+    overflow: hidden;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,#2df6fd,#f8eddb);
+}
+.slides3{
+    transition: all ;
+    transition-duration: 1s;
+    overflow: hidden;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,#95baff,#FFFFFF);
+}
+.slides4{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-image: linear-gradient(to right,#8a63f3,#FFFFFF);
+    min-width: 100%;
+  
+}
+.slides5{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-image: linear-gradient(to right,#f89fc1,#FFFFFF);
+    min-width: 100%;
+    
+  
+}
+.logo{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    padding: 10px;
+    max-width: 50%;
+  
+   
+}
+.image-container{
+    width: 500%;
+    display: flex;
+     
+}
+.img-content{
+    max-width: 50%;
+    top: -50%;
+    left: 10%;
+    position: relative;
+}
+
+p{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+@media only screen and  (max-width:640px){
+    .logo{
+        position: relative;
+        top: 20%;
+        left: 5px;
+        padding: 10px;
+        min-width: 100%;
+        
+        flex-wrap: wrap;
+       
+    }
+    .img-content{
+        min-width: 100%;
+        top: -50px;
+        margin: auto;
+        left: -70px;
+        position: relative;
+    }
+    #Layer_1{
+        float: inline-end;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+       
+    }
+    #Layer_2{
+        rotate: 180deg;
+        position: absolute;
+        top: 50%;
+        left: 5px;
+    }
+    .inner-container{
+        transition: all;
+        transition-duration: 2s;
+        display: flex;
+        margin: auto;
+        width: 80%;
+        height: 80%;
+     background-color: black;
+     overflow: hidden;
+     
+    }
+    #Layer_1{
+        float: inline-end;
+        position: absolute;
+        right: -10px;
+        top: 50%;
+       
+    }
+    #Layer_2{
+        rotate: 180deg;
+        position: absolute;
+        top: 50%;
+        left: -10px;
+    }
+}
